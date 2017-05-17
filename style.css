@@ -91,6 +91,7 @@ you have to do math take 960bodywidth-(495 sectionwideth - 365asidewidth)-(margi
   	margin-left: 15px;
   	height: 50px;
 	width: 435px;
+	overflow: scroll;
 	}
 
 .p {
@@ -102,6 +103,7 @@ you have to do math take 960bodywidth-(495 sectionwideth - 365asidewidth)-(margi
 	margin-left: 15px;
   	height: 50px;
 	width: 435px;
+	overflow: scroll;
 	}
 /* make p a class to be able to set margins*/
 
