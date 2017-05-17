@@ -1,0 +1,118 @@
+/*
+The colors used in your final layout should be:
+Background: #777
+Content: #ebebeb
+The widths of each section should be:
+body: 960px
+section: 495px
+The fonts used in the layout should be:
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+font-size: 18px
+
+*/
+
+
+body {
+	background-color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	width: 960px;
+	}
+
+.header {
+	background-color: #ebebeb;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 20px;
+  	margin-bottom: 20px;
+  	margin-top: 20px;
+  	margin-right: 40px;
+  	margin-left: 40px;
+  	text-align: center;
+	
+	}
+	
+	
+.nav {
+	background-color: #ebebeb;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 20px;
+  	margin-bottom: 20px;
+  	margin-top: 20px;
+  	margin-right: 40px;
+  	margin-left: 40px;
+	}
+
+.section {
+	background-color: #ebebeb;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  	float: left;
+    margin-bottom: 20px;
+  	margin-right: 0px;
+  	margin-left: 40px;
+  	height: 300px;
+	width: 495px;
+	}
+
+.aside {
+	background-color: #ebebeb;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  	float: left;
+    margin-bottom: 20px;
+  	margin-right: 40px;
+  	margin-left: 20px;
+  	height: 300px;
+	width: 365px;
+	}
+/*
+you have to do math take 960bodywidth-(495 sectionwideth - 365asidewidth)-(margin rights and lefts for aside and section 100)=0
+*/
+
+
+
+.atricle {
+	background-color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	float: left;
+	margin-top: 40px;
+  	margin-left: 15px;
+  	height: 200px;
+	width: 465px;
+	}
+
+.first {
+	background-color: #ebebeb;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 40px;
+  	margin-left: 15px;
+  	height: 50px;
+	width: 435px;
+	}
+
+.p {
+	background-color: #ebebeb;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: black;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 15px;
+  	height: 50px;
+	width: 435px;
+	}
+/* make p a class to be able to set margins*/
+
+.footer {
+	clear:both;
+	background-color: #ebebeb;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 20px;
+  	margin-bottom: 20px;
+  	margin-top: 40px;
+  	margin-right: 40px;
+  	margin-left: 40px;
+	
+	}
