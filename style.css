@@ -92,6 +92,7 @@ you have to do math take 960bodywidth-(495 sectionwideth - 365asidewidth)-(margi
   	height: 50px;
 	width: 435px;
 	overflow: scroll;
+	padding-top: 10px;
 	}
 
 .p {
